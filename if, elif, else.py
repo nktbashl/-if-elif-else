@@ -1,11 +1,11 @@
-a = int(input())
-b = int(input())
-c = int(input())
+first = int(input())
+second = int(input())
+third = int(input())
 
-if a != b != c:
+if first != second != third:
     print(0)
-if a == b == c:
+if first == second == third:
     print(3)
-elif a == c or a == b or b == c:
+elif first == third or first == second or second == third:
     print(2)
 
